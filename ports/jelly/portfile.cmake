@@ -1,9 +1,9 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
-  REPO salty-max/jelly-engine
-  REF v0.0.2
-  SHA512 71963ba55b5518a2a66b84649e529589c62708cac87e6252873abdc4d1c5006b3b06e472504f69c8c9fb5048bf24d70561d2b6c13e50bb2835389857aff31948
-  HEAD_REF master
+  REPO jellycat-io/jelly
+  REF v0.0.1
+  SHA512 630afc80626368507101d1eee3213c34294f1227d8589e091e30cf68b36f6ba10e0f9489c7ac87dac3afc266e851c1b694e8bf2dd3bf1b35b6ff1904e1df9915
+  HEAD_REF main
 )
 
 vcpkg_configure_cmake(
